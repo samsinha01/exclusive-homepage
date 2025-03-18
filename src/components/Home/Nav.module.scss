@@ -1,0 +1,16 @@
+@media(max-width:1112px){
+    .nav-links a{
+        display:block;
+        padding:5px 10px;
+        border-radius: 5px;
+    }
+    .nav-links a:hover{
+        background-color: rgba(154, 148, 148, 0.636);
+        font-weight: bold;
+    }
+    .nav-links a:active{
+        background-color: rgba(156, 152, 152, 0.8);
+        color:White;
+        font-weight: bold;
+    }
+}
