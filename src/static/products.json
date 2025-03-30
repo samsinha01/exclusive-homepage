@@ -2,87 +2,191 @@
     {
         "salesProduct":[
             {
-                "imgPath":"img/car-img1.png",
+                "image":"img/card-img1.png",
                 "discount":"32",
-                "productName":"Earphone",
+                "name":"Earphone",
                 "price":"160",
-                "ratingCount":"88"
+                "oldPrice":"200",
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/car-img1.png",
-                "discount":"32",
-                "productName":"Earphone",
+                "image":"img/card-img2.png",
+                "discount":"22",
+                "name":"Earphone",
                 "price":"160",
-                "ratingCount":"88"
+                "oldPrice":"200",
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/car-img1.png",
-                "discount":"32",
-                "productName":"Earphone",
+                "image":"img/card-img3.png",
+                "discount":"28",
+                "name":"Earphone",
                 "price":"160",
-                "ratingCount":"88"
+                "oldPrice":"200",
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/car-img1.png",
-                "discount":"32",
-                "productName":"Earphone",
+                "image":"img/card-img4.png",
+                "discount":"44",
+                "name":"Earphone",
                 "price":"160",
-                "ratingCount":"88"
+                "oldPrice":"200",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/card-img4.png",
+                "discount":"44",
+                "name":"Earphone",
+                "price":"160",
+                "oldPrice":"200",
+                "reviews":"88",
+                "rating":"4"
             }
         ],
         "category":[
             {
                 "imgPath":"img/Category-CellPhone.png",
-                "categoryName":"Phone"
+                "name":"Phone"
             },
             {
-                "imgPath":"img/Category-CellPhone.png",
-                "categoryName":"Phone"
+                "imgPath":"img/Category-Computer.png",
+                "name":"Computers"
             },
             {
-                "imgPath":"img/Category-CellPhone.png",
-                "categoryName":"Phone"
+                "imgPath":"img/Category-SmartWatch.png",
+                "name":"SmartWatch"
             },
             {
-                "imgPath":"img/Category-CellPhone.png",
-                "categoryName":"Phone"
+                "imgPath":"img/Category-Camera.png",
+                "name":"Camera"
             },
             {
-                "imgPath":"img/Category-CellPhone.png",
-                "categoryName":"Phone"
+                "imgPath":"img/Category-Headphone.png",
+                "name":"HeadPhones"
+            },
+            {
+                "imgPath":"img/Category-Gamepad.png",
+                "name":"Gaming"
             }
         ],
         "monthProduct":[
             {
-                "imgPath":"img/selling-card-img1.png",
-                "productName":"Earphone",
+                "image":"img/selling-card-img1.png",
+                "name":"Earphone",
                 "price":"160",
-                "sellingPrice":"110",
-                "ratingCount":"88"
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/selling-card-img1.png",
-                "productName":"Earphone",
+                "image":"img/selling-card-img2.png",
+                "name":"Earphone",
                 "price":"160",
-                "sellingPrice":"110",
-                "ratingCount":"88"
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/selling-card-img1.png",
-                "productName":"Earphone",
+                "image":"img/selling-card-img3.png",
+                "name":"Earphone",
                 "price":"160",
-                "sellingPrice":"110",
-                "ratingCount":"88"
+                "reviews":"88",
+                "rating":"4"
             },
             {
-                "imgPath":"img/selling-card-img1.png",
-                "productName":"Earphone",
+                "image":"img/selling-card-img4.png",
+                "name":"Earphone",
                 "price":"160",
-                "sellingPrice":"110",
-                "ratingCount":"88"
+                "reviews":"88",
+                "rating":"4"
             }
         ],
-        "ourProduct":[],
-        "newArrival":[]
+        "ourProduct":[
+            {
+                "image":"img/products1.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products2.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products3.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/card-img3.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products5.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products6.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products7.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            },
+            {
+                "image":"img/products8.png",
+                "name":"Earphone",
+                "price":"160",
+                "reviews":"88",
+                "rating":"4"
+            }
+            
+        ],
+        "newArrival":[
+            {
+                "imgPath":"img/arrival-1.png",
+                "productName":"Play Station 5",
+                "desc":"Black and White version of the PS5 coming out on sale.",
+                "ratingCount":"88"
+            },
+            {
+                "imgPath":"img/arrival-2.png",
+                "productName":"Women's Collection",
+                "desc":"Black and White version of the PS5 coming out on sale.",
+                "ratingCount":"88"
+            },
+            {
+                "imgPath":"img/arrival-speaker.png",
+                "productName":"Speakers",
+                "desc":"Black and White version of the PS5 coming out on sale.",
+                "ratingCount":"88"
+            },
+            {
+                "imgPath":"img/arrival-perfume.png",
+                "productName":"Perfumes",
+                "desc":"Black and White version of the PS5 coming out on sale.",
+                "ratingCount":"88"
+            }
+        ]
     }
 ]

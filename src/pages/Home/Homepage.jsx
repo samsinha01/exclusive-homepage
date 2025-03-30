@@ -20,7 +20,7 @@ function Homepage() {
       <Sales targetDate={new Date("2025-04-01T00:00:00")} />
       <Category />
       <MonthWise />
-      <Banner2 />
+      <Banner2 targetDate={new Date("2025-04-21T00:00:00")}/>
       <OurProducts />
       <Featured />
       <Facilities />

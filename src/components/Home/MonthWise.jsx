@@ -2,8 +2,11 @@ import React from 'react'
 import Heading from '../Heading'
 import Button from '../Button'
 import ProductCard from '../ProductCard'
+import { useSelector } from 'react-redux'
 
 function MonthWise() {
+    const monthlyProduct = useSelector((state)=> state.products.monthProduct);
+    
   return (
     <>
         <section>
@@ -17,14 +20,9 @@ function MonthWise() {
                     </div>
 
                     <div className='flex justify-center lg:justify-between my-10 flex-wrap gap-8'>
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
+                        {monthlyProduct.map((product,index)=>(
+                            <ProductCard key={index} {...product} />
+                        ))}
                     </div>
                 </div>
             </div>

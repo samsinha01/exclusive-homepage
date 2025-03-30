@@ -2,8 +2,12 @@ import React from 'react'
 import Heading from '../Heading';
 import ProductCard from '../ProductCard';
 import Button from '../Button';
+import { useSelector } from 'react-redux';
 
 function OurProducts() {
+
+    const ourProducts = useSelector((state)=> state.products.ourProduct);
+    // console.log(ourProducts);
   return (
     <>
         <section>
@@ -27,14 +31,9 @@ function OurProducts() {
                     </div>
 
                     <div className='my-8 flex gap-4 justify-center lg:justify-between flex-wrap'>
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
+                        {ourProducts.map((product,index)=>(
+                            <ProductCard key={index} {...product} />
+                        ))}
                     </div>
 
                     <div className="flex justify-center">
